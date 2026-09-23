@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+    <symbol id="credit-card" viewBox="0 0 512 512">
+        <rect
+            x="0"
+            y="70"
+            width="512"
+            height="372"
+            rx="30"
+            fill="#f8c817"
+        />
+    </symbol>
+</svg>

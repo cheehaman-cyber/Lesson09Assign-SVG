@@ -5,10 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SVG Images</title>
 
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="style/style.css">
+
 <body>
+    <main>
+        <h1>My SVG Images</h1>
+        <section>
+            <h2>YouTube Play Button</h2>
+
+            <svg
+                width="300"
+                height="300"
+                viewBox="0 0 512 512">
+            
+                <rect
+                x="0"
+                y="65"
+                width="512"
+                height="385"
+                rx="80"
+                fill="#e33228"/>
+            <polygon
+                points="194,167 362,264 194,359"
+                fill="white"
+                />
+            </svg>
+        </section>
+
+        <section>
+            <h2>Credit Card</h2>
+
+            <svg
+                width="300"
+                height="300"
+                viewBox="0 0 512 512"
+                role="img"
+                aria-label="Credit card">
+
+                <use href="Image/credit-card.svg#credit-card"></use>
+            </svg>
+        </section>
+    </main>
     
 </body>
 </html>
