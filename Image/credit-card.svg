@@ -21,6 +21,14 @@
             height="71"
             fill="#8c7f6d"
         />
+    
+        <rect x="44" y="230" width="97" height="18" rx="9" fill="#ffecaa" />
+        <rect x="159" y="230" width="97" height="18" rx="9" fill="#ffecaa" />
+
+        <circle cx="353" cy="345" r="53" fill="#e51b0b" />
+        <circle cx="415" cy="345" r="53" fill="#2862a6" />
     </symbol>
 </svg>
+      
+
       
