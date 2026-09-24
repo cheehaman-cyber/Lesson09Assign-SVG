@@ -1,5 +1,10 @@
+<!-- Start the SVG document -->
 <svg xmlns="http://www.w3.org/2000/svg">
-    <symbol id="credit-card" viewBox="0 0 512 512">
+
+    /* Name the drawing "credit-card" so index.html can reference it.*/
+    <symbol id="credit-card" viewBox="0 0 512 512"> 
+
+        <!-- 1. Yellow card background -->
         <rect
             x="0"
             y="70"
@@ -8,12 +13,14 @@
             rx="30"
             fill="#f8c817"
         />
+        <!-- 2. Five small rounded marks-->
         <rect x="44"  y="274" width="27" height="18" rx="9" fill="#ffecaa" />
-                <rect x="88"  y="274" width="35" height="18" rx="9" fill="#ffecaa" />
-                <rect x="141" y="274" width="27" height="18" rx="9" fill="#ffecaa" />
-                <rect x="185" y="274" width="36" height="18" rx="9" fill="#ffecaa" />
-                <rect x="238" y="274" width="18" height="18" rx="9" fill="#ffecaa" />
+        <rect x="88"  y="274" width="35" height="18" rx="9" fill="#ffecaa" />
+        <rect x="141" y="274" width="27" height="18" rx="9" fill="#ffecaa" />
+        <rect x="185" y="274" width="36" height="18" rx="9" fill="#ffecaa" />
+        <rect x="238" y="274" width="18" height="18" rx="9" fill="#ffecaa" />
 
+        <!-- 3. Dark stripe across the card -->
         <rect
             x="0"
             y="114"
@@ -21,11 +28,14 @@
             height="71"
             fill="#8c7f6d"
         />
-    
+        <!-- 4. Two long rounded bars -->
         <rect x="44" y="230" width="97" height="18" rx="9" fill="#ffecaa" />
         <rect x="159" y="230" width="97" height="18" rx="9" fill="#ffecaa" />
 
+        <!-- 5. Red circle -->
         <circle cx="353" cy="345" r="53" fill="#e51b0b" />
+
+        <!-- 6. Blue circle, drawn over the red circle -->
         <circle cx="415" cy="345" r="53" fill="#2862a6" />
     </symbol>
 </svg>
